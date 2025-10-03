@@ -1,11 +1,11 @@
-import Rankings from './Rankings';
-
 import { useState } from 'react';
+import Rankings from './Rankings';
 
 const TABS = ['My Officials', 'Rankings', 'Polls', 'Calendar', 'Voting'];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('My Officials');
+  const [group, setGroup] = useState('Governors.json');
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -29,7 +29,26 @@ export default function App() {
 
       <main className="p-4">
         {activeTab === 'My Officials' && <div>My Officials tab content</div>}
-        {activeTab === 'Rankings' && <Rankings />}
+
+        {activeTab === 'Rankings' && (
+          <div>
+            <div className="mb-4">
+              <label className="mr-2 font-bold">Select Group:</label>
+              <select
+                onChange={e => setGroup(e.target.value)}
+                className="px-2 py-1 border rounded"
+                value={group}
+              >
+                <option value="Governors.json">Governors</option>
+                <option value="Senators.json">Senators</option>
+                <option value="House.json">House Reps</option>
+                <option value="LtGovernors.json">Lt. Governors</option>
+              </select>
+            </div>
+            <Rankings source={group} />
+          </div>
+        )}
+
         {activeTab === 'Polls' && <div>Polls tab content</div>}
         {activeTab === 'Calendar' && <div>Calendar tab content</div>}
         {activeTab === 'Voting' && <div>Voting tab content</div>}
