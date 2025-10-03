@@ -1,26 +1,51 @@
 [
   {
-    "name": "Katie Britt",
-    "state": "Alabama",
-    "party": "Republican",
-    "office": "U.S. Senator",
-    "slug": "katie-britt",
-    "photo": "https://www.congress.gov/img/member/b001319_200.jpg",
-    "ballotpediaLink": "https://ballotpedia.org/Katie_Britt",
-    "contact": {
-      "email": "",
-      "phone": "",
-      "website": ""
-    },
-    "social": {
-      "twitter": "",
-      "facebook": "",
-      "instagram": ""
-    },
-    "platform": "",
-    "bills": []
+  "name": "Katie Britt",
+  "state": "Alabama",
+  "party": "Republican",
+  "office": "Senator",
+  "slug": "katie-britt",
+  "photo": "https://www.congress.gov/img/member/b001319_200.jpg",
+  "ballotpediaLink": "https://ballotpedia.org/Katie_Britt",
+  "termStart": "2023-01-03",
+  "termEnd": "2029-01-03",
+  "contact": {
+    "email": "",
+    "phone": "202-224-5744",
+    "website": "https://www.britt.senate.gov/"
   },
-  {
+  "bio": "Katie Britt is the junior U.S. Senator from Alabama, elected in 2022. She is the first woman elected to the Senate from Alabama and the youngest Republican woman ever elected. She previously served as CEO of the Business Council of Alabama and as chief of staff to Senator Richard Shelby.",
+  "education": "University of Alabama (BS in Political Science, JD in Law)",
+  "endorsements": "National Right to Life, Alabama Farmers Federation, Susan B. Anthony Pro-Life America",
+  "platform": "Economic growth, border security, parental rights, and opposition to federal overreach.",
+  "platformFollowThrough": {
+    "Border Security": "Serves on the Senate Judiciary Subcommittee on Border Security and Immigration. Advocated for increased enforcement and criticized soft-on-crime policies in Democrat-led cities.",
+    "Economic Growth": "Supports deregulation and tax relief for small businesses. Previously led the Business Council of Alabama.",
+    "Parental Rights": "Opposes federal mandates on education and supports school choice initiatives.",
+    "Federal Overreach": "Requested her Senate salary be withheld during the 2025 government shutdown to protest congressional inaction."
+  },
+  "proposals": "Increase penalties for fentanyl trafficking, expand rural broadband, and protect parental rights in education.",
+  "engagement": {
+    "executiveOrders2025": 0,
+    "socialMediaSurge": true,
+    "earnedMediaCoverage": true,
+    "sources": [
+      "https://www.britt.senate.gov/",
+      "https://ballotpedia.org/Katie_Britt",
+      "https://www.msn.com/en-us/news/us/senator-katie-britt-requests-pay-be-withheld-until-government-shutdown-ends/ar-AA1NKn37"
+    ]
+  },
+  "billsSigned": [],
+  "vetoes": "N/A",
+  "salary": "$174,000/year",
+  "predecessor": "Richard Shelby",
+  "pollingScore": "58%",
+  "pollingSource": "https://pro.morningconsult.com/tags/senator-approval",
+  "rank": "#12",
+  "pollingDate": "2025-07",
+  "electionYear": "2028"
+}.
+{
     "name": "Tommy Tuberville",
     "state": "Alabama",
     "party": "Republican",
