@@ -1,3 +1,5 @@
+import Rankings from './Rankings';
+
 import { useState } from 'react';
 
 const TABS = ['My Officials', 'Rankings', 'Polls', 'Calendar', 'Voting'];
@@ -27,7 +29,7 @@ export default function App() {
 
       <main className="p-4">
         {activeTab === 'My Officials' && <div>My Officials tab content</div>}
-        {activeTab === 'Rankings' && <div>Rankings tab content</div>}
+        {activeTab === 'Rankings' && <Rankings />}
         {activeTab === 'Polls' && <div>Polls tab content</div>}
         {activeTab === 'Calendar' && <div>Calendar tab content</div>}
         {activeTab === 'Voting' && <div>Voting tab content</div>}
